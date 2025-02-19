@@ -10,5 +10,5 @@ echo -e "\nPlacas PCI:"
 lspci | grep -E "VGA|Network"
 
 echo -e "\nLogs recentes do sistema:"
-journalctl -n 10 --no-pager 
+journalctl -n 10
 
